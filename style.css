@@ -235,6 +235,33 @@ img.logo-navbar {
     text-align: center;
     color:#000000;
 }
+@media(min-width: 300px){
+    .about-content{
+        width: 600px;
+        font-size: 8px;
+    }
+}
+@media(min-width: 700px){
+    .about-content{
+        width: 700px;
+        font-size: 10px;
+    }
+}
+@media(min-width: 1000px){
+ 
+    .about-content{
+        width: 1000px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 /* PARTE DO DIFERENCIAL */
@@ -322,6 +349,10 @@ img.logo-navbar {
     }
     .modulos{
         grid-template-columns: 1fr;
+        
+    }
+    .modulos-white{
+        grid-template-columns: 1fr;
     }
 }
 @media(min-width: 700px){
@@ -329,7 +360,11 @@ img.logo-navbar {
         width: 600px;
     }
     .modulos{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    .modulos-white{
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media(min-width: 1000px){
@@ -337,6 +372,9 @@ img.logo-navbar {
         width: 900px;
     }
     .modulos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .modulos-white{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }

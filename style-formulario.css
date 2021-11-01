@@ -10,6 +10,9 @@ body{
   background: url("imagens/vacas.jpg");
   padding: 0 10px;
 }
+a{
+    color: black;
+}
 .wrapper{
   max-width: 500px;
   width: 100%;
@@ -100,24 +103,36 @@ body{
   border: 1px solid #fec107;
 }
 
-
-
-
-.wrapper .form .inputfield .btn{
-  width: 100%;
-   padding: 8px 10px;
-  font-size: 15px; 
-  border: 0px;
-  background:  #A9783B;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 3px;
-  outline: none;
+#butao{
+    text-align: center;
+    padding: 20px;
+}
+.btn-success {
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #A9783B;
+}
+.btn-info {
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    
+    text-decoration: none;
+    background-color: #A9783B;
+}
+.btn-success:hover{
+    transform: scale(1.05);
+    text-decoration: none;
+    background: #6ECB63;
+}
+.btn-info:hover{
+    transform: scale(1.05);
+    text-decoration: none;
+    background: #6ECB63;
 }
 
-.wrapper .form .inputfield .btn:hover{
-  background: #6ECB63;
-}
 
 .wrapper .form .inputfield:last-child{
   margin-bottom: 0;
